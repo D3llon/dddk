@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3a0c9515a71a36cb63fbfde71e0e31fa",
+    "content-hash": "430fbc2cdb65eea103ff17b3121a57c3",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -232,75 +232,6 @@
                 "source": "https://github.com/Laravel-Backpack/PermissionManager/tree/6.0.15"
             },
             "time": "2022-04-18T13:32:50+00:00"
-        },
-        {
-            "name": "backpack/pro",
-            "version": "1.0.13",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:DigitallyHappy/backpack-pro.git",
-                "reference": "053633a36a9aa3625f79351045367e5cf5375505"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.backpackforlaravel.com/dist/backpack/pro/backpack-pro-053633a36a9aa3625f79351045367e5cf5375505-zip-371beb.zip",
-                "reference": "053633a36a9aa3625f79351045367e5cf5375505",
-                "shasum": "5b949241551603a296684bd71f579d56bed3fa72"
-            },
-            "require": {
-                "backpack/crud": "^5.0.9"
-            },
-            "require-dev": {
-                "orchestra/testbench": "~5|~6",
-                "phpunit/phpunit": "~9.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Backpack\\Pro\\AddonServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Backpack\\Pro\\": "src/"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "Backpack\\Pro\\Tests\\": "tests"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "vendor/bin/phpunit --testdox"
-                ]
-            },
-            "license": [
-                "Proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Cristian Tabacitu",
-                    "email": "cristian.tabacitu@backpackforlaravel.com",
-                    "homepage": "https://backpackforlaravel.com"
-                }
-            ],
-            "description": "Operations, Fields, Columns, Filters and Widgets for not-so-simple admin panels.",
-            "homepage": "https://github.com/digitallyhappy/backpack-pro",
-            "keywords": [
-                "Backpack",
-                "Backpack Addon",
-                "Backpack for Laravel",
-                "Laravel",
-                "Pro"
-            ],
-            "support": {
-                "source": "https://github.com/DigitallyHappy/backpack-pro/tree/1.0.13",
-                "issues": "https://github.com/DigitallyHappy/backpack-pro/issues"
-            },
-            "time": "2022-04-13T17:57:46+00:00"
         },
         {
             "name": "backpack/revise-operation",

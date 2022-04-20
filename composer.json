@@ -7,7 +7,6 @@
     "require": {
         "php": "^8.0",
         "backpack/crud": "^5.0.0",
-        "backpack/pro": "^1.0.0",
         "backpack/permissionmanager": "^6.0",
         "backpack/revise-operation": "^1.0",
         "cloudcake/laravel-approval": "^1.1",
@@ -68,11 +67,5 @@
         "sort-packages": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://repo.backpackforlaravel.com/"
-        }
-    ]
+    "prefer-stable": true
 }
