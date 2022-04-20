@@ -1,0 +1,1 @@
+<a href="{{ route('admin.creation.decline', ['id' => $entry->id]) }}" class="btn btn-error"><i class="la la-minus-circle"></i> Zamietnuť</a>
